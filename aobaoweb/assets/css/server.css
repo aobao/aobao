@@ -1,0 +1,482 @@
+@import "base.css";
+
+/*车主服务开始*/
+.server_top{
+    width: 975px;
+    margin: 108px auto 0;
+}
+/*标题*/
+.server_top_title{
+    height: 29px;
+    width: auto;
+    padding-left: 3px;
+}
+.server_top_title_line{
+    width: 20px;
+    height: 2px;
+    background: #d23b3a;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+.server_top_title_left{
+    font-size: 25px;
+    color: #585858;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    float: left;
+    font-weight: 600;
+}
+.server_top_title_right{
+    float: left;
+    width: 46px;
+    height: 23px;
+    font-size: 10px;
+    color: #666666;
+    margin: 6px 0 0 6px;
+}
+/*总述*/
+.server_top_total{
+    width: 100%;
+    padding-top: 26px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    display: flex;
+}
+.server_top_total_left{
+    width: 436px;
+    height: auto;
+}
+.server_top_total_left_title{
+    font-size: 24px;
+    color: #585858;
+    margin: 0;
+    padding: 0;
+}
+.server_top_total_left_title > b{
+    font-size: 24px;
+    color: #585858;
+    font-weight: 600;
+}
+.server_top_total_left_English{
+    font-size: 11px;
+    color: #585858;
+    margin-top: 5px;
+}
+.server_top_total_left_English > b{
+    font-size: 11px;
+    color: #585858;
+    font-weight: 600;
+}
+.server_top_total_left_time{
+    font-size: 19px;
+    color: #737373;
+    font-weight: 600;
+    margin-top: 2px;
+}
+.server_top_total_left_content{
+    font-size: 12px;
+    color: #737373;
+    line-height: 18px;
+    width: 100%;
+    margin-top: 5px;
+}
+.server_top_total_right{
+    width: 533px;
+    height: 249px;
+}
+.server_top_total_right > img{
+    display: block;
+    width: 100%;
+}
+/*第一点*/
+.server_top_first{
+    width: 100%;
+    height: 388px;
+    margin-top: 52px;
+    margin-bottom: 47px;
+}
+.server_top_first_top{
+    width: 100%;
+    height: 167px;
+    display: flex;
+}
+.server_top_first_top > .server_top_first_top_left{
+    width: 639px;
+    height: 100%;
+}
+.server_top_first_top_left > img{
+    display: block;
+    width: 100%;
+}
+.server_top_first_top_right_title{
+    display: flex;
+}
+.server_top_first_top_right_title > h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #41a5ef;
+}
+.server_top_first_top_right_title > div > h2{
+    font-size: 18px;
+    color: #41a5ef;
+    margin-top: 4px;
+}
+.server_top_first_top_right_title > div > div{
+    width: 45px;
+    height: 3px;
+    background: #000;
+}
+.server_top_first_top_right_tag{
+    font-size: 12px;
+    color: #585858;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.server_top_first_top_right_text{
+    width: 290px;
+    font-size: 12px;
+    color: #737373;
+    line-height: 18px;
+    margin-top: 9px;
+}
+.server_top_first_bottom{
+    height: 211px;
+    width: 100%;
+    display: flex;
+}
+.server_top_first_bottom > img{
+    display: inline-block;
+    height: 100%;
+}
+/*第二点*/
+.server_top_two{
+    width: 100%;
+    height: 287px;
+    display: flex;
+}
+.server_top_two_left{
+    width: 469px;
+    height: 100%;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+.server_top_two_left > .server_top_first_top_right_title{
+    float: left;
+}
+.server_top_two_left_topright{
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 34px;
+}
+.server_top_two_left_bottom{
+    width: 100%;
+}
+.server_top_two_left_bottom  > img{
+    display: block;
+    width: 100%;
+}
+.server_top_two_right{
+    width: 487px;
+    height: 291px;
+    margin-left: 19px;
+}
+.server_top_two_right > img{
+    display: block;
+    width: 100%;
+}
+/*第三点*/
+.server_top_three{
+    width: 100%;
+    height: 279px;
+    margin-top: 69px;
+    box-sizing: border-box;
+}
+.server_top_three_top{
+    width: 100%;
+    height: 105px;
+}
+.server_top_three_top >.server_top_first_top_right{
+    display: flex;
+    margin-left: 300px;
+}
+.server_top_three_top  .server_top_first_top_right_title{
+    margin-right: 10px;
+}
+.server_top_three_top  .server_top_first_top_right_title > div > div{
+    width: 60px;
+}
+.server_top_three_bottom{
+    padding-left: 150px;
+    display: flex;
+}
+.server_top_three_bottomleft{
+    width: 452px;
+    background: lightblue;
+    margin-right: 24px;
+}
+.server_top_three_bottomleft > img{
+    width: 100%;
+    display: block;
+}
+.server_top_three_bottom > .server_top_first_top_right_text{
+    margin-top: 105px;
+}
+/*车主服务结束*/
+
+/*通屏开始*/
+.server_all{
+    width: 100%;
+    height: 276px;
+    margin-top: 100px;
+    position: relative;
+}
+.server_all > img{
+    width: 100%;
+    display: block;
+}
+.server_all_car{
+    height: 354px;
+    position: absolute;
+    bottom: -12px;
+    right: 0px;
+}
+.server_all_car > img{
+    display: block;
+    height: 100%;
+}
+/*通屏结束*/
+
+/*预约试驾开始*/
+.server_drive{
+    width: 975px;
+    margin:0 auto;
+    margin-top: 70px;
+}
+.server_drive_title{
+    width: 100%;
+    height: 145px;
+    box-sizing: border-box;
+    padding:0 190px 15px 205px;
+    margin-top: 100px;
+}
+.server_drive_title_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.server_drive_title_left{
+    width: 250px;
+}
+.server_drive_title_left > h1{
+    font-size: 13px;
+    color: #585858;
+    font-weight: bold;
+}
+.server_drive_title_right{
+    width: 169px;
+}
+.server_drive_title_right > img{
+    display: block;
+    width: 100%;
+}
+.server_drive > .server_top_title{
+     padding-bottom: 40px;
+     border-bottom: 2px solid #f0f0f0;
+}
+.server_drive  .server_top_title_right{
+    margin:2px 0 0 10px
+}
+.server_drive_bottom{
+    width: 100%;
+    height: 452px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    position: relative;
+}
+.server_drive_bottom > form{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.server_input{
+    width: 586px;
+    height: 103px;
+    display: flex;
+}
+.server_input_left{
+    width: 66px;
+    height: 103px;
+}
+.server_input_left > img{
+    display: block;
+    width: 100%;
+}
+.server_input_box{
+    width: 512px;
+    height: 91px;
+    margin: 6px 0 0 7px;
+}
+.input1 > input:first-child,.server_input_box > input:last-child{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f4f4f4;
+    padding-left: 23px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #868686;
+}
+.input1 > input:first-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 46px;
+    border-bottom: 2px solid #ededed;
+}
+.input1 > input:last-child{
+    height: 43px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.server_input_check{
+    width: 515px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 23px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #868686;
+    background: #f4f4f4;
+    line-height: 42px;
+    border: none;
+    outline: none;
+}
+.server_input_box_radio{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.server_input_box_radio .female ,.server_input_box_radio .male {
+    position: relative;
+    line-height: 45px;
+}
+.server_input_box_radio  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.server_input_box_radio  label {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #e0e0e0;
+}
+/*设置选中的input的样式*/
+/* + 是兄弟选择器,获取选中后的label元素*/
+.server_input_box_radio  input:checked+label {
+    background-color: #cc0033;
+}
+.server_input_box_radio  input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    top: 2px;
+    left: 7px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg)
+}
+.server_input_box_radio span{
+    position: absolute;
+    left: 45px;
+    font-size: 14px;
+    color: #585858;
+    top: -5px
+}
+.server_input_box2{
+    width: 515px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 23px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #868686;
+    background: #f4f4f4;
+    line-height: 42px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+.server_map{
+    width: 339px;
+    height: 424px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.server_map > img{
+    display: block;
+    width: 100%;
+}
+.server_comment{
+    width: 908px;
+    height: 87px;
+    background: #f6f6f6;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding-left:100px;
+    padding-top:20px;
+    font-size: 12px;
+    color: #7a7a7a;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    bottom:-100px;
+}
+.server_plus{
+    width: 84px;
+    height: 84px;
+    border-radius: 8px;
+    background: #ebebeb;
+    font-size: 80px;
+    text-align: center;
+    line-height: 84px;
+    color: #fff;
+    position: absolute;
+    left:25px;
+    bottom:-80px;
+}
+.server_drive_bottom > form > button{
+    width: 92px;
+    height: 22px;
+    background: #000;
+    border: none;
+    outline: none;
+    position: absolute;
+    font-size: 12px;
+    color: #fff;
+    right: 0;
+    bottom: -140px;
+}
+/*预约试驾结束*/
+
+.server_footer{
+    width: 293px;
+    height: 80px;
+    margin: 250px auto 0;
+}
+.server_footer > img{
+    display: block;
+    width: 100%;
+}

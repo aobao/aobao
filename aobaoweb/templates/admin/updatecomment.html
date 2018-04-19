@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="{CSS_PATH}bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="{CSS_PATH}font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <!-- Morris -->
+    <link href="{CSS_PATH}plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <!-- Gritter -->
+    <link href="{JS_PATH}plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="{CSS_PATH}animate.min.css" rel="stylesheet">
+    <link href="{CSS_PATH}style.min.css?v=4.0.0" rel="stylesheet">
+
+    <link rel="stylesheet" href="{KIND_PATH}themes/default/default.css" />
+    <link rel="stylesheet" href="{KIND_PATH}plugins/code/prettify.css" />
+    <script charset="utf-8" src="{KIND_PATH}kindeditor-all.js"></script>
+    <script charset="utf-8" src="{KIND_PATH}lang/zh-CN.js"></script>
+    <script charset="utf-8" src="{KIND_PATH}plugins/code/prettify.js"></script>
+    <script>
+        KindEditor.ready(function(K) {
+            var editor1 = K.create('textarea[name="con"]', {
+                cssPath : '{KIND_PATH}plugins/code/prettify.css',
+                uploadJson : '{KIND_PATH}php/upload_json.php',
+                fileManagerJson : '{KIND_PATH}php/file_manager_json.php',
+                allowFileManager : true,
+                afterCreate : function() {
+                    var self = this;
+                    K.ctrl(document, 13, function() {
+                        self.sync();
+                        K('form[name=example]')[0].submit();
+                    });
+                    K.ctrl(self.edit.doc, 13, function() {
+                        self.sync();
+                        K('form[name=example]')[0].submit();
+                    });
+                }
+            });
+            prettyPrint();
+        });
+    </script>
+
+    <base target="_blank">
+    <style>
+        .aa{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding:  0 0 0 15px;
+        }
+        .aa img{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body class="gray-bg">
+
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>修改预约试驾</h5>
+                </div>
+                <div class="ibox-content">
+                    <form  class="form-horizontal" action="index.php?f=comment&a=updatecomchack"  target="iframe0"  method="post" enctype="multipart/form-data">
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">ID</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入内容ID" class="form-control"  name="id" value="{$arr['id']}" readonly>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">车系</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="xilie" value="{$arr['xilie']}">
+                                <span class="help-block m-b-none">请输入车系</span>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">车型</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入推荐ID" class="form-control"  name="type" value="{$arr['type']}">
+                                <span class="help-block m-b-none">请输入车型</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">姓名</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="name" value="{$arr['name']}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">性别</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="sex" value="{$arr['sex']}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">联系电话</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="phone" value="{$arr['phone']}">
+                                <span class="help-block m-b-none">请输入联系电话</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">经销商省</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="province" value="{$arr['province']}">
+                                <span class="help-block m-b-none">请输入经销商省</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">经销商省</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="jingxiao" value="{$arr['jingxiao']}">
+                                <span class="help-block m-b-none">请输入经销商</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">联系电话</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="phone" value="{$arr['phone']}">
+                                <span class="help-block m-b-none">请输入联系电话</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">预约时间</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入标题" class="form-control" name="date" value="{$arr['date']}">
+                                <span class="help-block m-b-none">请输入预约时间</span>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">留言</label>
+                            <div class="col-sm-10">
+                                <textarea id="ccomment" name="con" class="form-control" required="" aria-required="true" style="width:700px;height:200px;">
+                                    {$arr['message']}
+                                </textarea>
+                                <span class="help-block m-b-none">请输入留言</span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" type="submit">确认修改</button>
+                                <button class="btn btn-white" type="submit">取消</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="{JS_PATH}jquery.min.js?v=2.1.4"></script>
+<script src="{JS_PATH}bootstrap.min.js?v=3.3.5"></script>
+<script src="{JS_PATH}plugins/flot/jquery.flot.js"></script>
+<script src="{JS_PATH}plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="{JS_PATH}plugins/flot/jquery.flot.spline.js"></script>
+<script src="{JS_PATH}plugins/flot/jquery.flot.resize.js"></script>
+<script src="{JS_PATH}plugins/flot/jquery.flot.pie.js"></script>
+<script src="{JS_PATH}plugins/peity/jquery.peity.min.js"></script>
+<script src="{JS_PATH}demo/peity-demo.min.js"></script>
+<script src="{JS_PATH}content.min.js?v=1.0.0"></script>
+<script src="{JS_PATH}plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="{JS_PATH}plugins/gritter/jquery.gritter.min.js"></script>
+<script src="{JS_PATH}plugins/easypiechart/jquery.easypiechart.js"></script>
+<script src="{JS_PATH}plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="{JS_PATH}demo/sparkline-demo.min.js"></script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</html>

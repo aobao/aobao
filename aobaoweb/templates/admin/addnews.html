@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加新闻</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="{CSS_PATH}bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="{CSS_PATH}font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="{CSS_PATH}plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="{CSS_PATH}animate.min.css" rel="stylesheet">
+    <link href="{CSS_PATH}style.min.css?v=4.0.0" rel="stylesheet"><base target="_blank">
+
+</head>
+<style>
+    .upload{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .upload input{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        font-size: 0;
+        outline: none;
+        margin-left: 14px;
+        margin-top: 14px;
+        float: left;
+    }
+    .upload input:after{
+        content: '+';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        font-size: 90px;
+        color: #cccccc;
+        border: 1px dashed #cccccc;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        line-height: 100px;
+    }
+    .imgbox{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 14px 0 0 14px;
+        float: left;
+    }
+</style>
+<body class="gray-bg">
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>添加新闻</h5>
+                </div>
+                <div class="ibox-content">
+                    <form method="post" class="form-horizontal" action="index.php?f=news&a=addnewscheck"  target="iframe0">
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">添加新闻标题</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入新闻标题" class="form-control"  name="title">
+                                <span class="help-block m-b-none">请输入新闻标题</span>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">添加新闻描述</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入新闻描述" class="form-control"  name="des">
+                                <span class="help-block m-b-none">请输入新闻描述</span>
+                            </div>
+                        </div>
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">添加新闻类型</label>
+                            <div class="col-sm-10">
+                                <input type="text" placeholder="请输入新闻类型" class="form-control"  name="type">
+                                <span class="help-block m-b-none">请输入数字类型</span>
+                            </div>
+                        </div>
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">内容</label>
+                            <div class="col-sm-10">
+                                <textarea id="ccomment" name="content" class="form-control" required=""  aria-required="true"></textarea>
+                                <span class="help-block m-b-none">请输入内容</span>
+                            </div>
+                        </div>
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">添加新闻图片</label>
+                            <div class="col-sm-10">
+                                <div class="upload">
+                                    <input type="file" name="img" multiple>
+                                    <ul class="imgbox"></ul>
+                                </div>
+                                <span class="help-block m-b-none">请添加新闻图片</span>
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" type="submit">确认修改</button>
+                                <button class="btn btn-white" type="submit">取消</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="{JS_PATH}jquery.min.js?v=2.1.4"></script>
+<script src="{JS_PATH}bootstrap.min.js?v=3.3.5"></script>
+<script src="{JS_PATH}content.min.js?v=1.0.0"></script>
+<script src="{JS_PATH}plugins/iCheck/icheck.min.js"></script>
+<script>
+    let input = document.querySelector('.upload input[type=file]');
+    let imgbox = input.nextElementSibling;
+    let size = 1024*1024*2;
+    let type = ['image/png','image/gif','image/jpeg'];
+    input.onchange = function () {
+        imgbox.innerHTML = '';
+        let arr = this.files;
+        for (let i=0;i<arr.length;i++){
+            if (arr[i].size>size){
+                alert("图片过大");
+                return;
+            }
+            if (!type.includes( arr[i].type)){
+                alert("请上传图片类型");
+                return;
+            }
+        }
+        for (let i=0;i<arr.length;i++){
+            let fileread = new FileReader();
+            fileread.readAsDataURL(arr[i]);
+            fileread.onload = function () {
+                let li = document.createElement('li');
+                li.style.cssText = "width:140px;height:100px;float:left;background-image:url("+this.result+");background-size:cover;position:relative;margin-right:14px;";
+                imgbox.appendChild(li);
+
+                let div = document.createElement('div');
+                div.style.cssText = "width:100%;height:2px;position:absolute;left:0;bottom:0;background:blue;border-radius:1px;";
+                li.appendChild(div);
+
+                let formdata = new FormData();
+                formdata.append("file",arr[i]);
+                let ajax = new XMLHttpRequest();
+                ajax.upload.onprogress = function (e) {
+                    let wi = e.loaded/e.total*100;
+                    div.style.width = wi+"%";
+                };
+                ajax.onload = function (e) { //ajax发送完成事件
+                    let inp= document.createElement('input');
+                    inp.type='hidden';
+                    inp.name='img[]';
+                    inp.value=ajax.responseText;
+                    input.parentNode.appendChild(inp);
+                    console.log(ajax.responseText);
+                };
+                ajax.open('post','index.php?f=news&a=imgsc');
+                ajax.send(formdata);
+            };
+
+        }
+    }
+</script>
+</html>

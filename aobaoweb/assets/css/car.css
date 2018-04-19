@@ -1,0 +1,302 @@
+body{
+    background: #fff;
+}
+.header{
+    width: 100%;
+    height: 570px;
+    background: #b5ccc2;
+}
+/*面包屑开始*/
+ .car-crumbs{
+    width: 975px;
+    height: 104px;
+    background: #86bdff;
+    margin: 0 auto;
+}
+/*面包屑结束*/
+
+/*新品推荐开始*/
+#car-newa{
+    width: 975px;
+    height: 910px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+#car-newa .car-newa-timg{
+    width: 275px;
+    height: 209px;
+    margin: 0 auto;
+}
+#car-newa .car-newa-one{
+    width: 975px;
+    height: 346px;
+    margin: 0 auto;
+}
+#car-newa .car-newa-one .car-newa-one-z{
+    width: 630px;
+    height: 346px;
+    float: left;
+}
+#car-newa .car-newa-one .car-newa-one-y{
+    width: 345px;
+    height: 346px;
+    float: right;
+}
+#car-newa .car-newa-one .car-newa-one-dian{
+    width: 36px;
+    height: 36px;
+    background: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 443px;
+    left: 612px;
+    margin: auto;
+    text-align: center;
+}
+#car-newa .car-newa-one .car-newa-one-dian .iconfont{
+    line-height: 36px;
+    color: #000;
+}
+#car-newa .car-newa-one .car-newa-one-y .car-newa-z-img{
+    width: 345px;
+    height: 176px;
+}
+#car-newa .car-newa-one .car-newa-one-y .car-newa-z-span{
+    width: 100%;
+    height: 170px;
+    font-size: 15px;
+    background: #f7f7f7;
+}
+#car-newa .car-newa-one .car-newa-one-y .car-newa-z-span .car-newa-z-span-h3{
+    font-weight: bold;
+    margin-top: 39px;
+    font-size: 16px;
+    text-align: center;
+    color: #555555;
+}
+#car-newa .car-newa-one .car-newa-one-y .car-newa-z-span .car-newa-xc{
+    margin-top: 9px;
+    width: 45px;
+    height: 8px;
+    margin: 0 auto;
+}
+#car-newa .car-newa-one .car-newa-one-y .car-newa-z-span .car-newa-z-span-h6{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #989898;
+
+}
+#car-newa .car-newa-two .car-newa-two-dian{
+    width: 36px;
+    height: 36px;
+    background: #42a4e9;
+    position: absolute;
+    border-radius: 50%;
+    top: 633px;
+    left: 328px;
+    margin: auto;
+    text-align: center;
+}
+#car-newa .car-newa-two .car-newa-two-dian .iconfont{
+    line-height: 36px;
+    color: #000;
+}
+#car-newa .car-newa-two{
+    width: 975px;
+    height: 346px;
+    margin: 0 auto;
+}
+#car-newa .car-newa-two .car-newa-two-z{
+    width: 345px;
+    height: 346px;
+    float: left;
+}
+#car-newa .car-newa-two .car-newa-two-y{
+    width: 630px;
+    height: 346px;
+    float: right;
+}
+#car-newa .car-newa-two .car-newa-two-z .car-newa-z-span{
+    width: 100%;
+    height: 170px;
+    font-size: 15px;
+    background: #f7f7f7;
+}
+#car-newa .car-newa-two .car-newa-two-z .car-newa-z-span .car-newa-z-span-h3{
+    font-weight: bold;
+    margin-top: 46px;
+    font-size: 16px;
+    text-align: center;
+    color: #555555;
+}
+#car-newa .car-newa-two .car-newa-two-z .car-newa-z-span .car-newa-xc{
+    margin-top: 9px;
+    width: 45px;
+    height: 8px;
+    margin: 0 auto;
+}
+#car-newa .car-newa-two .car-newa-two-z .car-newa-z-span .car-newa-z-span-h6{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #989898;
+}
+#car-newa .car-newa-two .car-newa-two-z .car-newa-z-img{
+    width: 345px;
+    height: 176px;
+    margin-top: 47px;
+}
+/*新品推荐结束*/
+
+/*品牌车型开始*/
+#car-mode{
+    width: 975px;
+    height: 2077px;
+    margin: 0 auto;
+    position: relative;
+    /*background: red;*/
+}
+#car-mode .mode-t-img{
+    width: 331px;
+    height: 191px;
+    margin: 0 auto;
+}
+#car-mode .frame{
+    width: 975px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    /*background: #eeeeee;*/
+}
+#car-mode .frame .car-frame-one{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#car-mode .frame .car-frame-one .car-frame-li{
+    width: 248px;
+    height: 445px;
+    /*background: #ccc;*/
+}
+#car-mode .frame .car-frame-one .car-frame-li .car-frame-li-img{
+    width: 247px;
+    height: 247px;
+    box-shadow: 2px 2px 5px 1px #f5f5f5;
+}
+#car-mode .frame .car-frame-one .car-frame-li span{
+    width: 100%;
+    height: 198px;
+    text-align: center;
+}
+#car-mode .frame .car-frame-one .car-frame-li span h3{
+    margin-top: 46px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1px;
+    color: #585858;
+    font-weight: bold;
+}
+#car-mode .frame .car-frame-one .car-frame-li span .car-frame-tt{
+    width: 45px;
+    margin: 0 auto;
+}
+#car-mode .frame .car-frame-one .car-frame-li span .ic{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+    color: #737373;
+}
+#car-mode .frame .car-frame-one .car-frame-li span .id{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 83px;
+    color: #737373;
+}
+#car-mode .page{
+    width:200px;
+    height: 21px;
+    /*background: #00aced;*/
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#car-mode .page a .iconfont{
+    font-size: 18px;
+    margin-left: 22px;
+    color: #777777;
+}
+#car-mode .page a span{
+    width: 21px;
+    height: 21px;
+    display: block;
+    background: #060203;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#car-mode .page a span h6{
+    color: #f0f0f0;
+}
+#car-mode .page a .active{
+    background: #42a4e9;
+}
+#car-mode .page .dian3{
+    display: block;
+    width: 22px;
+    height: 21px;
+    float: left;
+    margin-left: 23px;
+}
+#car-mode .page a .span1{
+    text-align: center;
+    line-height: 21px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#car-mode .page a .aa{
+    margin-left: 19px;
+    float: left;
+}
+#car-mode .ofo{
+    width: 973px;
+    height: 441px;
+    margin: 88px 0 0 0 ;
+    position: relative;
+    top: 10px;
+}
+#car-mode .ofo .car_ann{
+    width: 73px;
+    height: 25px;
+    position: absolute;
+    bottom: 34px;
+    left:0;
+    right: 0;
+    margin:  auto;
+    background: red;
+    border-radius: 5px;
+}
+#car-mode .ofo .car_ann h3{
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+/*品牌车型结束*/
+
+/*联系我们开始*/
+.car_caon{
+    width: 332px;
+    height: 153px;
+    margin: 0 auto;
+}
+/*联系我们结束*/
+

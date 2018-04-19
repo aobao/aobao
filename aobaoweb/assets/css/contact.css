@@ -1,0 +1,388 @@
+@import url('base.css');
+.contact-carbig{
+	width: 975px;
+	height: 264px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.contact-text-head{
+	width: 100%;
+	height: 25px;
+}
+.contact-left{
+	width: 100px;
+	height: 25px;
+	float: left;
+	margin-left: 3px;
+	font-size: 25px;
+	color: #585858;
+	line-height: 25px;
+}
+.contact-right{
+	width: 45px;
+	height: 21px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+.contact-right-top{
+	width: 45px;
+	height: 9px;
+	line-height: 9px;
+	font-size: 9px;
+	color: #666;
+}
+.contact-right-bot{
+	width: 45px;
+	height: 9px;
+	line-height: 9px;
+	font-size: 9px;
+	color: #666;
+	margin-top: 3px;
+}
+.contact-heart-big{
+	width: 100%;
+	height: 239px;
+
+}
+.contact-heart-big-left{
+	width: 432px;
+	height: 230px;
+	float: left;
+	margin-left: 3px;
+}
+.contact-lingting{
+	width: 181px;
+	height: 20px;
+	margin-top: 35px;
+	font-size: 20px;
+	color: #585858;
+	line-height: 20px;
+}
+.contact-break-big{
+	width: 269px;
+	height: 12px;
+	margin-top: 9px;
+}
+.contact-break-big-left{
+	width: 116px;
+	height: 12px;
+	float: left;
+	font-size: 12px;
+	color: #737373;
+	line-height: 12px;
+}
+.contact-break-big-right{
+	width: 148px;
+	height: 12px;
+	float: left;
+	font-size: 12px;
+	color: #9c9c9c;
+	line-height: 12px;
+}
+.contact-ruguo{
+	width: 100%;
+	height: 11px;
+	margin-top: 15px;
+	font-size: 10px;
+	color: #737373;
+	line-height: 11px;
+}
+.contact-tech{
+	width: 172px;
+	height: 9px;
+	margin-top: 16px;
+	line-height: 9px;
+	font-size: 9px;
+	color: #a6a6a6;
+}
+.contact-breakthrouth{
+	width: 327px;
+	height: 9px;
+	margin-top: 9px;
+	font-size: 9px;
+	color: #a5a5a5;
+	line-height: 9px;
+}
+.contact-heart-big-right{
+	width: 540px;
+	height: 239px;
+	float: right;
+}
+.contact-heart-big-right img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.contact-addr{
+	width: 914px;
+	height: 196px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.contact-addr img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.contact-address{
+	width: 975px;
+	height: 278px;
+	margin: 0 auto;
+	margin-top: 52px;
+}
+.contact-address-left{
+	width: 473px;
+	height: 278px;
+	float: left;
+}
+.contact-address-left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.contact-address-right{
+	width: 474px;
+	height: 276px;
+	border: 1px solid #444;
+	background: #000;
+	float: right;
+}
+.contact-quanquan-zuo{
+	width: 37px;
+	height: 275px;
+	float: left;
+}
+.contact-quanquan1{
+	width: 14px;
+	height: 14px;
+	background: #ea5511;
+	border-radius: 50%;
+	margin-top: 32px;
+	margin-left: 16px;
+}
+.contact-quanquan2{
+	width: 14px;
+	height: 14px;
+	background: #ea5511;
+	border-radius: 50%;
+	margin-left: 16px;
+	margin-top: 116px;
+}
+.contact-add-you{
+	width: 344px;
+	height: 209px;
+	float: left;
+	margin-top: 30px;
+}
+.contact-haitang-big{
+	width: 281px;
+	height: 16px;
+}
+.contact-haitang-big-left{
+	width: 129px;
+	height: 16px;
+	font-size: 16px;
+	color: #ddd;
+	line-height: 16px;
+	float: left;
+}
+.contact-haitang-big-right{
+	width: 146px;
+	height: 9px;
+	font-size: 9px;
+	color: #a8a8a8;
+	line-height: 9px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 6px;
+}
+.contact-haitangline{
+	width: 100%;
+	height: 1px;
+	background: #8f8f8f;
+	margin-top: 11px;
+}
+.contact-shanxi{
+	width: 100%;
+	height: 11px;
+	margin-top: 17px;
+	font-size: 11px;
+	color: #8d8d8d;
+	line-height: 11px;
+}
+.contact-num{
+	width: 100%;
+	height: 13px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #ddd;
+	line-height: 13px;
+}
+.contact-xx{
+	margin-top: 51px;
+}
+.contact-biaodan{
+	width: 975px;
+	height: 402px;
+	margin: 0 auto;
+	margin-top: 49px;
+}
+.contact-biaodan-head{
+	width: 100%;
+	height: 25px;
+}
+.contact-liuyan-zi{
+	width: 55px;
+	height: 24px;
+	float: left;
+	margin-left: 28px;
+
+}
+.contact-liuyan-zi i{
+	font-size: 24px;
+	color: #585858;
+	line-height: 24px;
+}
+.contact-com-big{
+	width: 100%;
+	height: 24px;
+}
+.contact-com{
+	width: 100%;
+	height: 10px;
+	 margin-top: 1px;
+	 margin-left: 5px;
+	font-size: 10px;
+	color: #cacaca;
+	line-height: 10px;
+}
+.contact-ments{
+	width: 100%;
+	height: 9px;
+	margin-top: 3px;
+	line-height: 9px;
+	font-size: 9px;
+	color: #737373;
+}
+.contact-first1{
+	width: 286px;
+	height: 46px;
+    margin-top: 35px;
+	padding: 0;
+	border: 0;
+	border: 3px solid #e4e4e4;
+	border-radius: 7px;
+	font-size: 12px;
+	color: #949494;
+	outline: none;
+	padding-left: 27px;
+	box-sizing: border-box;
+	margin-left: 28px;
+}
+.contact-second2{
+	width: 286px;
+	height: 46px;
+    margin-top: 35px;
+	padding: 0;
+	border: 0;
+	border: 3px solid #e4e4e4;
+	border-radius: 7px;
+	font-size: 12px;
+	color: #949494;
+	outline: none;
+	padding-left: 27px;
+	box-sizing: border-box;
+	margin-left: 22px;
+}
+.contact-xina{
+	width: 100%;
+	height: 3px;
+	background:#eee;
+	margin-top: 44px;
+}
+.contact-textarea{
+	width: 909px;
+	height: 86px;
+	padding-left: 98px;
+	outline: none;
+	margin-top: 41px;
+	margin-left: 42px;
+	background: #f6f6f6;
+	border: 0;
+
+}
+.contact-wenben{
+	position: relative;
+}
+.contact-shizi{
+   width: 85px;
+   height: 84px;
+   background: #ebebeb;
+   font-size: 41px;
+   color: #fff;
+   text-align: center;
+   line-height: 84px;
+   font-weight: 700;
+   position: absolute;
+   top: 24px;
+   left: 30px;
+   border-radius: 7px;
+}
+.contact-btn{
+	width: 90px;
+	height: 20px;
+	background: #000;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	border: 0;
+	border: 1px solid #777;
+	float: right;
+	margin-top: 24px;
+	margin-right: 27px;
+}
+.concat-newp-big{
+	width: 100%;
+	height: 82px;
+	margin-top: 16px;
+}
+.concat-gray-xian{
+	width: 80px;
+	height: 7px;
+	background: #4c4c4c;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+.concat-newp{
+	width: 100%;
+	height: 26px;
+	font-size: 26px;
+	color: #585858;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 16px;
+}
+.concat-moto-big{
+	width: 277px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.concat-moto-left{
+	width: 171px;
+	height: 16px;
+	float: left;
+	font-size: 16px;
+	color: #737373;
+	line-height: 16px;
+}
+.concat-moto-right{
+	width: 100px;
+	height: 25px;
+	float: right;
+	font-size: 25px;
+	color: #585858;
+	line-height: 25px;
+}

@@ -1,0 +1,267 @@
+body{
+    background: #fff;
+}
+.header{
+    width: 100%;
+    height: 570px;
+    background: #b5ccc2;
+}
+/*面包屑开始*/
+.cetdet-crumbs{
+    width: 975px;
+    height: 104px;
+    background: #86bdff;
+    margin: 0 auto;
+}
+/*面包屑结束*/
+
+/*企业简介开始*/
+#cetdet-con{
+    width: 975px;
+    min-height:1690px;
+    margin: 0 auto;
+}
+#cetdet-con .con-z{
+    position:relative;
+    width: 244px;
+    height: 587px;
+    float:left;
+    margin-top: 15px;
+    border-top: 3px solid #e0e0e0;
+    border-left: 3px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+    box-sizing: border-box;
+}
+#cetdet-con .con-z .conz-img {
+    width: 244px;
+    height: 160px;
+}
+#cetdet-con .con-z .conz-img .conz-qyjj{
+    width: 223px;
+    height: 107px;
+    margin-top: 8px;
+    margin-left: 7px;
+    border: 1px solid #666666;
+}
+#cetdet-con .con-z ul{
+    width: 239px;
+    height: 200px;
+    border-top: 3px solid #e0e0e0;
+    /*border-left: 3px solid #e0e0e0;*/
+    /*border-right: 3px solid #e0e0e0;*/
+    box-sizing: border-box;
+}
+#cetdet-con .con-z ul li{
+    width: 239px;
+    height: 32px;
+    border-bottom:1px solid #e0e0e0;
+    box-sizing: border-box;
+    line-height: 39px;
+}
+#cetdet-con .con-z ul .active{
+    color: #fff;
+    background: #5fb5f2;
+}
+#cetdet-con .con-z ul .active h4{
+    color: #fff;
+}
+#cetdet-con .con-z ul .active h5{
+    color: #fff;
+}
+#cetdet-con .con-z ul li h4{
+    color: #737373;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 22px;
+    float: left;
+}
+#cetdet-con .con-z ul li h5{
+    float: left;
+    color: #737373;
+    font-size: 12px;
+    line-height: 32px;
+    margin-left: 8px;
+}
+#cetdet-con .con-z .conz-c-img{
+    position:absolute;
+    right: -2px;
+    margin: auto;
+    width: 421px;
+    height: 268px;
+}
+
+#cetdet-con .con-y{
+    width: 679px;
+    height: auto;
+    margin-left: 52px;
+    float:left;
+}
+#cetdet-con .con-y .cony-t{
+    margin-top: 102px;
+    height: 133px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    /*background:red;*/
+    font-size: 24px;
+}
+#cetdet-con .con-y .cony-t  .cony-t-on{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: #00aced;
+}
+#cetdet-con .con-y .cony-t  .cony-t-on h4{
+    color: #5fb5f2;
+    font-weight: bold;
+    font-size: 16px;
+    float:left;
+}
+#cetdet-con .con-y .cony-t  .cony-t-on h5{
+    color: #585858;
+    font-size: 15px;
+    float:left;
+    margin-left: 11px;
+}
+#cetdet-con .con-y .cony-t  .cony-t-tw {
+    width: 100%;
+    height: 44px;
+    font-size: 24px;
+    color: #585858;
+}
+#cetdet-con .con-y .cony-t  .cony-t-tw {
+    width: 100%;
+    height: 44px;
+    font-size: 24px;
+    color: #585858;
+}
+#cetdet-con .con-y .cony-t  .cony-t-tw h2{
+    font-size: 24px;
+    color: #585858;
+    font-weight: bold;
+    float: left;
+}
+#cetdet-con .con-y .cony-t  .cony-t-tw .h23{
+    margin-left: 18px;
+    font-weight: 100;
+}
+#cetdet-con .con-y .cony-t  h3{
+    font-size: 20px;
+    color: #585858;
+}
+#cetdet-con .con-y .conyul1{
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+#cetdet-con .con-y .conyul1 li{
+    margin-top: 41px;
+    width: 100%;
+    height: 126px;
+}
+#cetdet-con .con-y .conyul1 li .xfk{
+    width: 13px;
+    height: 13px;
+    background: #191919;
+    float: left;
+    margin-top: 5px;
+}
+#cetdet-con .con-y .conyul1 li h2{
+    float: left;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #585858;
+}
+#cetdet-con .con-y .conyul1 .cony-kb{
+    width: 100%;
+    height: 50px;
+}
+#cetdet-con .con-y .conyul1 li p{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #737373;
+}
+#cetdet-con .con-y .cony-yw{
+    height: auto;
+    width: 100%;
+    /*background: coral;*/
+    margin-top: 45px;
+}
+#cetdet-con .con-y .cony-yw li{
+    width: 610px;
+    margin-bottom: 34px;
+}
+#cetdet-con .con-y .cony-yw li p{
+    font-size: 13px;
+    color: #737373;
+    word-wrap:break-word;
+    /*word-break:break-all;*/
+    /*overflow: hidden;*/
+}
+#cetdet-con .con-y .cony-z-img{
+    height: 235px;
+    width: 236px;
+   float:left;
+    margin-top: 55px;
+}
+#cetdet-con .con-y .cony-y-img{
+    width: 418px;
+    height: 238px;
+    float: right;
+
+    margin-top: 55px;
+}
+#cetdet-con .con-y  .cony-x{
+    float: left;
+    margin-top: 65px;
+    width: 100%;
+    height: 207px;
+    margin-bottom: 30px;
+}
+#cetdet-con .con-y  .cony-x .cony-x-z{
+    float: left;
+    width: 293px;
+    height: 207px;
+}
+#cetdet-con .con-y  .cony-x .cony-x-z .xfk{
+    width: 13px;
+    height: 13px;
+    background: #191919;
+    float: left;
+    margin-top: 5px;
+}
+#cetdet-con .con-y  .cony-x .cony-x-z h2{
+    float: left;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #585858;
+}
+#cetdet-con .con-y  .cony-x .cony-x-z .cony-kb{
+    width: 100%;
+    height: 50px;
+}
+#cetdet-con .con-y  .cony-x .cony-x-z p{
+    display: block;
+    font-size: 14px;
+    color: #737373;
+}
+#cetdet-con .con-y  .cony-x .cony-x-y{
+    width: 373px;
+    height: 207px;
+    float: right;
+}
+
+/*企业简介结束*/
+
+/*联系我们开始*/
+.cetdet-lxwm{
+    width: 396px;
+    height: 186px;
+    margin: 0 auto;
+}
+/*联系我们结束*/
+
+/*底部开始*/
+
+/*底部结束*/
